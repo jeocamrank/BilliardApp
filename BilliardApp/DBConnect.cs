@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BilliardApp
 {
-
+    // suc vat duong an cut
     internal class DBConnect
     {
         private string con;
