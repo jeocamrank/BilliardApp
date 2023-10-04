@@ -1,0 +1,11 @@
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.csproj.AssemblyReference.cache
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.csproj.SuggestedBindingRedirects.cache
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.Form1.resources
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.csproj.GenerateResource.cache
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\bin\Debug\BilliardApp.exe.config
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\bin\Debug\BilliardApp.exe
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\bin\Debug\BilliardApp.pdb
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.Properties.Resources.resources
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.csproj.CoreCompileInputs.cache
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.exe
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.pdb
