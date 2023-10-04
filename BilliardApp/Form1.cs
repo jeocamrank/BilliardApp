@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
+// duong dau buoi oc cut
 namespace BilliardApp
 {
     public partial class Form1 : Form
