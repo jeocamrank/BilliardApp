@@ -9,3 +9,6 @@ D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.Prope
 D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.csproj.CoreCompileInputs.cache
 D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.exe
 D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.pdb
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.UserAccount.resources
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.Table.resources
+D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.TableModule.resources

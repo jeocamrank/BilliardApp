@@ -23,30 +23,31 @@ namespace BilliardApp
             cn = new SqlConnection(dbcon.myConnection());
             cn.Open();
         }
+
         #region panelSlide
         public void customizeDesing()
         {
-            panelSubProduct.Visible = false;
+            panelSubUser.Visible = false;
         }
 
         private void hideSubMenu()
         {
-            if(panelSubProduct.Visible == true)
+            if (panelSubUser.Visible == true)
             {
-                panelSubProduct.Visible = false;
+                panelSubUser.Visible = false;
             }
         }
 
         private void showSubMenu(Panel submenu)
         {
-            if(submenu.Visible == false)
+            if (submenu.Visible == false)
             {
                 hideSubMenu();
                 submenu.Visible = true;
             }
             else
             {
-                submenu.Visible= false;
+                submenu.Visible = false;
             }
         }
         #endregion panelSlide
@@ -56,21 +57,17 @@ namespace BilliardApp
 
         }
 
-        private void btnProduct_Click(object sender, EventArgs e)
+        private void btnUser_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelSubProduct);
+            showSubMenu(panelSubUser);
         }
-        private void btnProductList_Click(object sender, EventArgs e)
+
+        private void btnUserInfo_Click(object sender, EventArgs e)
         {
             hideSubMenu();
         }
 
-        private void btnCategory_Click(object sender, EventArgs e)
-        {
-            hideSubMenu();
-        }
-
-        private void btnBrand_Click(object sender, EventArgs e)
+        private void btnUserAccount_Click(object sender, EventArgs e)
         {
             hideSubMenu();
         }
@@ -80,10 +77,24 @@ namespace BilliardApp
 
         }
 
-        private void btnLogout_Click(object sender, EventArgs e)
+        private void btnSessions_Click(object sender, EventArgs e)
         {
 
         }
 
+        private void btnServices_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDetail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -47,6 +47,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBConnect.cs" />
+    <Compile Include="Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table.Designer.cs">
+      <DependentUpon>Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccount.Designer.cs">
+      <DependentUpon>UserAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableModule.Designer.cs">
+      <DependentUpon>TableModule.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +73,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Table.resx">
+      <DependentUpon>Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccount.resx">
+      <DependentUpon>UserAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableModule.resx">
+      <DependentUpon>TableModule.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +110,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="images\administrator_male_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\employee_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\add_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\close_window_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\edit_account_30px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -117,20 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="employee_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\employee_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAE8SURBVEhL7ZA9MgRRFIVbZBQhgVkCIRlLICEmJmIFfpZAQEixBD+hKlMjoohYAgmxYJTrvHeO
+        dxHR3W8S/VWd5Dvd51a9oqEhK2bWQfrFpc729XAPudDZ/wqeYCg+Rl5aOudAttllZVznHMhJdlmZ0DkH
+        cpZdVmZ0zoGcZ/eNPWRUn/wa/DOG7IeBH8zpEwdymV3iGRlU/Wfwbwt5CUNfWFLtQK6zSxyoKg02DjmV
+        WFPlQG6zSyyoKg02FjmV2FLlQO6yi7wiw6pKg40RbX2yo8qBPGYXOZOuDLbOORk5knYgT9lFVqQrg61V
+        TkZOpB3IK3b2jrSlKxO2tBnoSjuQD+zsWqo2sHnDabuXciCf2NmGVG1gc5PT9ijlQL6xsymp2sDmNKet
+        J+VAdpFbZECqNsImcod0pBoaclEUHzOE+hERKNG7AAAAAElFTkSuQmCC
+</value>
   </data>
-  <data name="close_window_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\close_window_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="administrator_male_80px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\administrator_male_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="add_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\add_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="edit_account_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\edit_account_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Edit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Delete.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>
