@@ -16,7 +16,7 @@ namespace BilliardApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TableModule());
+            Application.Run(new Table());
         }
     }
 }

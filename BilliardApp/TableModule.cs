@@ -16,11 +16,13 @@ namespace BilliardApp
         SqlConnection cn = new SqlConnection();
         SqlCommand cm = new SqlCommand();
         DBConnect dbcon = new DBConnect();
+        Table table;
 
-        public TableModule()
+        public TableModule(Table tb)
         {
             InitializeComponent();
             cn = new SqlConnection(dbcon.myConnection());
+            table = tb;
         }
 
         private void picClose_Click(object sender, EventArgs e)
@@ -42,6 +44,7 @@ namespace BilliardApp
                     cn.Close();
                     MessageBox.Show("Bản ghi đã được lưu thành công", "POS");
                     Clear();
+                    table.LoadTable();
                 }
             }
             catch(Exception ex)

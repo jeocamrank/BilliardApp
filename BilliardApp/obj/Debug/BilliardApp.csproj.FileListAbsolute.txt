@@ -12,3 +12,17 @@ D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.pdb
 D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.UserAccount.resources
 D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.Table.resources
 D:\Workspace\C#_VisualStudio\BilliardApp\BilliardApp\obj\Debug\BilliardApp.TableModule.resources
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\bin\Debug\BilliardApp.exe.config
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\bin\Debug\BilliardApp.exe
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\bin\Debug\BilliardApp.pdb
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.Table.resources
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.UserAccount.resources
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.TableModule.resources
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.Form1.resources
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.Properties.Resources.resources
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.exe
+C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.pdb
