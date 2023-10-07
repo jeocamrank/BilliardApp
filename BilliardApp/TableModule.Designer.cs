@@ -120,6 +120,7 @@
             this.btnUpdate.TabIndex = 5;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnCancel
             // 
@@ -179,11 +180,11 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox picClose;
-        private System.Windows.Forms.TextBox txtTableName;
-        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Label lblid;
+        public System.Windows.Forms.TextBox txtTableName;
+        public System.Windows.Forms.Button btnSave;
+        public System.Windows.Forms.Button btnUpdate;
+        public System.Windows.Forms.Button btnCancel;
+        public System.Windows.Forms.Label lblid;
     }
 }
