@@ -26,6 +26,7 @@ C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.csproj.Gener
 C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.exe
 C:\Users\DELL\Desktop\BilliardApp\BilliardApp\obj\Debug\BilliardApp.pdb
+<<<<<<< HEAD
 D:\c# bida\BilliardApp\bin\Debug\BilliardApp.exe.config
 D:\c# bida\BilliardApp\bin\Debug\BilliardApp.exe
 D:\c# bida\BilliardApp\bin\Debug\BilliardApp.pdb
@@ -182,3 +183,19 @@ D:\BillardApp\BillardApp\BilliardApp\obj\Debug\BilliardApp.csproj.Fody.CopyLocal
 D:\BillardApp\BillardApp\BilliardApp\obj\Debug\BilliardApp.csproj.CopyComplete
 D:\BillardApp\BillardApp\BilliardApp\obj\Debug\BilliardApp.exe
 D:\BillardApp\BillardApp\BilliardApp\obj\Debug\BilliardApp.pdb
+=======
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\bin\Debug\BilliardApp.exe.config
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\bin\Debug\BilliardApp.exe
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\bin\Debug\BilliardApp.pdb
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\obj\Debug\BilliardApp.csproj.AssemblyReference.cache
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\obj\Debug\BilliardApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\obj\Debug\BilliardApp.Table.resources
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\obj\Debug\BilliardApp.UserAccount.resources
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\obj\Debug\BilliardApp.TableModule.resources
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\obj\Debug\BilliardApp.Form1.resources
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\obj\Debug\BilliardApp.Properties.Resources.resources
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\obj\Debug\BilliardApp.csproj.GenerateResource.cache
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\obj\Debug\BilliardApp.csproj.CoreCompileInputs.cache
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\obj\Debug\BilliardApp.exe
+C:\Users\84968\Downloads\BilliardApp-master\BilliardApp\obj\Debug\BilliardApp.pdb
+>>>>>>> df2ae5d46e672938cb5c684ae1fffe33a1693e22

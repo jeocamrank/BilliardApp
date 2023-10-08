@@ -28,14 +28,22 @@ namespace BilliardApp
         public void LoadTable()
         {
             int i = 0;
+<<<<<<< HEAD
             dgvEmployee.Rows.Clear();
+=======
+            dgvTable.Rows.Clear();
+>>>>>>> df2ae5d46e672938cb5c684ae1fffe33a1693e22
             cn.Open();
             cm = new SqlCommand("SELECT * FROM TABLES ORDER BY TABLENAME", cn);
             dr = cm.ExecuteReader();
             while(dr.Read())
             {
                 i++;
+<<<<<<< HEAD
                 dgvEmployee.Rows.Add(i, dr["tableid"].ToString(), dr["tablename"].ToString(), dr["status"].ToString());
+=======
+                dgvTable.Rows.Add(i, dr["tableid"].ToString(), dr["tablename"].ToString(), dr["status"].ToString());
+>>>>>>> df2ae5d46e672938cb5c684ae1fffe33a1693e22
             }
             dr.Close();
             cn.Close();
@@ -46,5 +54,35 @@ namespace BilliardApp
             TableModule moduleForm =  new TableModule(this);
             moduleForm.ShowDialog();
         }
+<<<<<<< HEAD
+=======
+
+        private void dgvTable_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Để thiết lập chỉnh sửa và xóa trong bảng dgv
+            string colName = dgvTable.Columns[e.ColumnIndex].Name;
+            if(colName == "Delete")
+            {
+                if(MessageBox.Show("Bạn có chắc chắn muốn xóa bản ghi này không?", "Xóa bản ghi", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    cn.Open();
+                    cm = new SqlCommand("DELETE FROM TABLES WHERE TableID LIKE '"+ dgvTable[1, e.RowIndex].Value.ToString() +"'", cn);
+                    cm.ExecuteNonQuery();
+                    cn.Close();
+                    MessageBox.Show("Bản ghi đã được xóa thành công!", "POS", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            else if (colName == "Edit")
+            {
+                TableModule tableModule = new TableModule(this);
+                tableModule.lblid.Text = dgvTable[1, e.RowIndex].Value.ToString();
+                tableModule.txtTableName.Text = dgvTable[2, e.RowIndex].Value.ToString();
+                tableModule.btnSave.Enabled = false;
+                tableModule.btnUpdate.Enabled = true;
+                tableModule.ShowDialog();
+            }
+            LoadTable();
+        }
+>>>>>>> df2ae5d46e672938cb5c684ae1fffe33a1693e22
     }
 }

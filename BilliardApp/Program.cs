@@ -16,7 +16,11 @@ namespace BilliardApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new login());
+=======
+            Application.Run(new Form1());
+>>>>>>> df2ae5d46e672938cb5c684ae1fffe33a1693e22
         }
     }
 }

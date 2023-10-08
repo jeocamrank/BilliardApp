@@ -109,6 +109,7 @@ namespace BilliardApp.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+<<<<<<< HEAD
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -129,5 +130,7 @@ namespace BilliardApp.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+=======
+>>>>>>> df2ae5d46e672938cb5c684ae1fffe33a1693e22
     }
 }

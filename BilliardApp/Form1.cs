@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+<<<<<<< HEAD
+=======
+//Tung ngu bu dai
+>>>>>>> df2ae5d46e672938cb5c684ae1fffe33a1693e22
 
 namespace BilliardApp
 {
@@ -52,6 +56,28 @@ namespace BilliardApp
         }
         #endregion panelSlide
 
+<<<<<<< HEAD
+=======
+        private Form activeForm = null;
+        public void openChildForm(Form childForm)
+        {
+            if(activeForm != null)
+            {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            lblTitle.Text = childForm.Text;
+            panelMain.Controls.Add(childForm);
+            panelMain.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
+
+>>>>>>> df2ae5d46e672938cb5c684ae1fffe33a1693e22
         private void btnDashboard_Click(object sender, EventArgs e)
         {
 
@@ -74,7 +100,12 @@ namespace BilliardApp
 
         private void btnTable_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
+=======
+            openChildForm(new Table());
+            hideSubMenu();
+>>>>>>> df2ae5d46e672938cb5c684ae1fffe33a1693e22
         }
 
         private void btnSessions_Click(object sender, EventArgs e)
